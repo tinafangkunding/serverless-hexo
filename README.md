@@ -1,9 +1,16 @@
 # 部署Serverless Hexo站点
 
+## 快速开始
+
 通过Serverless Website组件快速构建一个Serverless Hexo站点
 build a serverless hexo website with serverless website component
 
-## 安装
+1. [安装](#1-安装)
+2. [配置](#2-配置)
+3. [部署](#3-部署)
+4. [移除](#4-移除)
+
+### 1. 安装
 
 1. 安装前提：
 - [Node.js](https://nodejs.org/en/) (Node.js 版本需不低于 8.6，建议使用 Node.js 10.0 及以上版本)
@@ -44,7 +51,7 @@ hexo g   # generate
 hexo s   # server
 ```
 
-## 配置
+### 2. 配置
 
 在`hexo`目录下，创建`serverless.yml`文件，在其中进行如下配置
 
@@ -79,7 +86,7 @@ myWebsite:
 └── serverless.yml
 ```
 
-## 部署
+### 3. 部署
 
 通过`sls`命令进行部署，并可以添加`--debug`参数查看部署过程中的信息
 
@@ -120,7 +127,7 @@ Login successful for TencentCloud
 ```
 访问命令行输出的website url，即可查看您的Serverless Hexo站点
 
-#### 移除
+### 4. 移除
 
 可以通过以下命令移除hexo网站
 ```console
