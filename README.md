@@ -18,10 +18,16 @@ build a serverless hexo website with serverless website component
 
 如您未安装上述应用程序，可以参考排[Hexo安装说明](https://hexo.io/zh-cn/docs/)。
 
-**安装Hexo**
+**安装 Serverless Framework**
+```
+$ npm install -g serverless
+```
+
+**安装 Hexo**
 ```
 $ npm install -g hexo-cli
 ```
+
 安装 Hexo 完成后，请执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件。
 ```
 $ hexo init hexo   # 生成hexo目录
