@@ -2,7 +2,7 @@
 
 ## 快速开始
 
-通过Serverless Website组件快速构建一个Serverless Hexo站点
+通过Serverless Website组件快速构建一个Serverless Hexo站点 <p/>
 build a serverless hexo website with serverless website component
 
 1. [安装](#1-安装)
@@ -12,13 +12,13 @@ build a serverless hexo website with serverless website component
 
 ### 1. 安装
 
-1. 安装前提：
+**安装前提：**
 - [Node.js](https://nodejs.org/en/) (Node.js 版本需不低于 8.6，建议使用 Node.js 10.0 及以上版本)
 - [Git](https://git-scm.com/)
 
 如您未安装上述应用程序，可以参考排[Hexo安装说明](https://hexo.io/zh-cn/docs/)。
 
-2. 安装Hexo
+**安装Hexo**
 ```
 $ npm install -g hexo-cli
 ```
@@ -46,7 +46,7 @@ $ npm install
 hexo g   # generate
 ```
 
-> 注：如果希望在本地查看效果，也可以运行下列命令，把页面部署在服务器，通过浏览器访问 `localhost:4000` 查看页面效果。
+> 注：如果希望在本地查看效果，也可以运行下列命令，通过浏览器访问 `localhost:4000` 查看页面效果。
 ```
 hexo s   # server
 ```
@@ -126,6 +126,8 @@ Login successful for TencentCloud
   13s » myWebsite » done
 ```
 访问命令行输出的website url，即可查看您的Serverless Hexo站点
+
+> 注：如果希望更新hexo站点中的文章，需要在本地重新运行`hexo g`进行生成静态页面，再运行`serverless`更新到页面
 
 ### 4. 移除
 
