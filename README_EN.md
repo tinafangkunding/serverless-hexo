@@ -25,7 +25,7 @@ Build a serverless hexo website with serverless website component, it's fast and
 2. [Configure](#2-configure)
 3. [Deploy](#3-deploy)
 4. [Remove](#4-remove)
-5. [Account (optional)](#5-account (optional))
+5. [Account (optional)](#5-account)
 
 ### 1. Install
 
@@ -175,7 +175,7 @@ PS sls remove --debug
 
 ```
 
-### Account (optional)
+### 5. Account (optional)
 
 Just create a `.env` file
 
