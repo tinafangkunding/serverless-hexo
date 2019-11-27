@@ -1,4 +1,4 @@
----
+<--
 title: 部署Serverless Hexo站点
 description: "通过Serverless Website组件快速构建一个Serverless Hexo站点"
 date: 2019-11-28
@@ -13,7 +13,7 @@ translators:
   - None
 translatorslink: 
   - None
----
+-->
 
 # 部署Serverless Hexo站点
 
