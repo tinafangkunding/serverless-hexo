@@ -174,7 +174,7 @@ PS sls remove --debug
 
 ```
 
-### 5. Account (optional)
+### 5. Account
 
 Just create a `.env` file
 
