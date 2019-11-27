@@ -1,4 +1,4 @@
-<--
+<!--
 title: 部署Serverless Hexo站点
 description: "通过Serverless Website组件快速构建一个Serverless Hexo站点"
 date: 2019-11-28
@@ -20,7 +20,8 @@ translatorslink:
 ## 快速开始
 
 通过Serverless Website组件快速构建一个Serverless Hexo站点 <p/>
-build a serverless hexo website with serverless website component
+
+[English Version Docs >>](./README_EN.md): Build a serverless hexo website with serverless website component
 
 1. [安装](#1-安装)
 2. [配置](#2-配置)
