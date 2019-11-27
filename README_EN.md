@@ -117,7 +117,7 @@ Use `sls` command to deploy your project, you could also add `--debug` to see th
 
 If you have a `Wechat` account, you don't need to configure the `.env` file, just scan the QR code in terminal and sign-up a new account of Tencent Cloud. It's a streamlined experience.
 
-If you don't have a wechat account, you could jump to [account](#5-account) step and configure the account info.
+If you don't have a wechat account, you could jump to [account](#5-account-(optional)) step and configure the account info.
 
 ```
 PS serverless --debug
